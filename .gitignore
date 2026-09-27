@@ -1,0 +1,12 @@
+# 离线单文件版是构建产物（python tools/build-offline.py 可随时重新生成），不入库
+/little-planet-白天切换-离线版.html
+*.html.tmp
+
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+node_modules/
+__pycache__/
+*.pyc
